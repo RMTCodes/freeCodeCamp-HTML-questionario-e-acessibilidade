@@ -19,18 +19,25 @@ header {
     padding:0.4rem;
   }
 
-  header {
+header {
     height: 50px;
     width: 100%;
     background-color:#1b1b32;
     display: flex;
   }
 
-  h1 {
+h1 {
     color: #f1be32;
     font-size: min(5vw, 1.2em);
   }
 
+h1 , h2{
+    font-family: Verdana, Tahoma ;
+ }
+ 
+h2{
+    border-bottom: 4px solid #dfdfe2;
+ }
   
 nav {
   width: 50%;
