@@ -24,16 +24,24 @@
         <section role="region" aria-labelledby="student-info">
           <h2 id="student-info">Student Info</h2>
           <div class="info">
-            <label for="name">Nome do aluno : </label>
-            <input id="name" />
+
+            <label for="student-name">Name:</label>
+            <input id="student-name"  type="string" name="name"/>
+
           </div>
+
           <div class="info">
-            <label for="email">E-mail : </label>
-            <input id="email" />
+
+            <label for="student-email">Email:</label>
+            <input id="student-email" type="email" name="email" />
+
           </div>
+
           <div class="info">
-            <label for="data">Data : </label>
-            <input id="data" />
+
+            <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
+            <input type="date" name="birth-date" id="birth-date" />
+
           </div>
         </section>
         <section role="region" aria-labelledby="html-questions">
