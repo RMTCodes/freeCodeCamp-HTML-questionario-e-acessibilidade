@@ -55,13 +55,15 @@
               </legend>
               <ul class="answers-list">
                 <li>
-                  <label>
-                    <input type="radio" id="q1-a1"/>
+                  <label for="q1-a1">
+                    <input type="radio" id="q1-a1" value="True" name="q1" />
+                    True
                   </label>
                 </li>
                 <li>
-                  <label>
-                    <input type="radio" id="q1-a2"/>
+                  <label for="q1-a2">
+                    <input type="radio" id="q1-a2" value="False" name="q1"/>
+                    False
                   </label>
                 </li>
               </ul>
@@ -76,13 +78,15 @@
               </legend>
               <ul class="answers-list">
                 <li>
-                  <label>
-                    <input type="radio" id="q2-a1"/>
+                  <label for="q2-a1">
+                    <input type="radio" id="q2-a1" value="True" name="q2" />
+                    True
                   </label>
                 </li>
                 <li>
-                  <label>
-                    <input type="radio" id="q2-a2"/>
+                  <label for="q2-a2">
+                    <input type="radio" id="q2-a2" value="False" name="q2"/>
+                    False
                   </label>
                 </li>
               </ul>
@@ -91,6 +95,10 @@
         </section>
         <section role="region" aria-labelledby="css-questions">
           <h2 id="css-questions">CSS</h2>
+          <div class="formrow">
+            <div class="question-block"></div><div class="answer"></div>
+            <div class="question-block"></div><div class="answer"></div>
+          </div>
         </section>
       </form>
     </main>
