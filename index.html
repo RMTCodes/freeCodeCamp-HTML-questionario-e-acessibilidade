@@ -96,8 +96,26 @@
         <section role="region" aria-labelledby="css-questions">
           <h2 id="css-questions">CSS</h2>
           <div class="formrow">
-            <div class="question-block"></div><div class="answer"></div>
-            <div class="question-block"></div><div class="answer"></div>
+            <div class="question-block">
+              <label for="selector" >Uma propriedade de margem CSS aceita valores negativos?</label>
+            </div>
+            
+            <div class="answer">
+              <select name="selector" id="selector" required>
+                <option value="">Select an option</option>
+                
+                <option value="yes">Sim</option>
+                
+                <option value="no" >Não</option>
+              </select>
+            </div>
+
+            <div class="question-block">
+              <label for="css-textarea">Você tem alguma pergunta:</label>
+            </div>
+            <div class="answer">
+              <textarea id="css-textarea" name="css-questions" rows="5" cols="24" placeholder="Quem é flexbox..."></textarea>
+            </div>
           </div>
         </section>
       </form>
